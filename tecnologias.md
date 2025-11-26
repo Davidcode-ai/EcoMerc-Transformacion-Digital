@@ -1,23 +1,18 @@
-# Listado de Tecnologías
+# Tecnologías de Digitalización y su Justificación
 
-## Tecnologías IT
-- **ERP (Sistema de Gestión):** Inventario, pedidos y compras.  
-- **CRM:** Gestión de clientes y ventas.  
-- **Página web + e-commerce:** Pedidos online automatizados.  
-- **Base de datos SQL:** Registro de lotes, proveedores y productos.  
-- **Dashboard (Power BI):** Análisis de ventas y eficiencia.  
-- **Ciberseguridad:** Firewalls, copias de seguridad, roles de usuario.
+## Planta (OT)
+| Tecnología | Función | Beneficio / Justificación |
+|------------|---------|---------------------------|
+| IoT y sensores inteligentes | Captura niveles de stock y movimiento | Permite control en tiempo real y decisiones proactivas, evitando roturas y exceso de inventario |
+| RFID y códigos de barras | Lectura automática de entradas y salidas | Garantiza trazabilidad precisa y reduce errores humanos |
+| Machine Learning | Analiza datos históricos y patrones de consumo | Predice demanda, optimiza compras y reposiciones estratégicas |
 
-## Tecnologías OT
-- **Sensores IoT:** Temperatura, humedad, peso y tiempos de cocción.  
-- **PLC:** Automatización de maquinaria.  
-- **Robots auxiliares:** Empaquetado automático.  
-- **SCADA:** Monitorización en tiempo real.  
-- **Etiquetado automatizado:** Lotes QR automáticos.
-
-## Inteligencia Artificial (IA)
-- **Predicción de demanda:** Cálculo de producción semanal.  
-- **Mantenimiento predictivo:** Detección temprana de fallos.  
-- **Visión artificial:** Control de calidad por imagen.  
-- **Chatbot:** Atención al cliente 24/7.  
-- **Optimización de rutas:** Entregas más rápidas y económicas.
+## Negocio (IT)
+| Tecnología | Función | Beneficio / Justificación |
+|------------|---------|---------------------------|
+| Base de datos centralizada | Organiza información de inventario y ventas | Permite análisis y toma de decisiones basadas en datos |
+| ERP conectado | Gestiona compras, ventas y proveedores | Automatiza procesos y optimiza la eficiencia del negocio |
+| CRM con IA | Analiza comportamiento del cliente | Permite personalizar ofertas y fidelizar clientes |
+| Chatbot con IA | Responde consultas de clientes 24/7 | Mejora atención y reduce carga administrativa |
+| Página web y app móvil | Ventas online y visualización de productos | Facilita compras y recopila datos de comportamiento de clientes |
+| Marketing digital | Publicidad dirigida y análisis de campañas | Expande alcance y retención de clientes mediante segmentación inteligente |
