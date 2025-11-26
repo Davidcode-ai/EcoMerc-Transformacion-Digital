@@ -1,26 +1,31 @@
-# Propuesta de Transformación Digital
+🏠 [Volver al Inicio](README.md) | 🏢 [Empresa](empresa.md) | ⚙️ [Tecnologías](tecnologias.md) | 📊 [Diagrama](diagrama.md) | 🧠 [Reflexión](reflexion.md)
 
-## Transformación Digital en Planta (OT – Operaciones) con IA
-**Objetivo:** Optimizar inventario, trazabilidad y reposición mediante IA y datos en tiempo real.
+---
 
-- **IoT y sensores inteligentes:** Capturan datos de niveles de stock y movimiento de productos. La IA procesa los datos para anticipar reposiciones y optimizar operaciones.  
-- **RFID y códigos de barras:** Lectura automática combinada con IA para detectar patrones, errores y asegurar trazabilidad precisa.  
-- **Machine Learning:** Analiza ventas históricas, estacionalidad y promociones para predecir demanda y planificar compras estratégicas.
+# 🚀 Propuesta de Transformación: De EcoMerc a SmartMarket
 
-**Resultados esperados:**  
-- Control predictivo de inventario  
-- Reducción de roturas y exceso de stock  
-- Optimización del almacén y logística  
+La transformación se aborda "de extremo a extremo", conectando el almacén con la estrategia de negocio.
 
-## Transformación Digital en Negocio (IT – Información) con IA
-**Objetivo:** Mejorar análisis de datos, comunicación con clientes y procesos internos.
+### 🔄 1. Transformación en Planta (OT)
+**Objetivo:** Automatizar la captura de la realidad.
 
-- **Análisis de productos con IA:** Identifica artículos más y menos vendidos para decisiones estratégicas de stock.  
-- **Página web y app móvil:** Mejora la experiencia del cliente y proporciona datos de comportamiento.  
-- **Marketing Digital:** Publicidad dirigida y análisis de campañas efectivas.  
-- **ERP y CRM con IA:** Automatización de procesos, personalización de ofertas y atención al cliente.
+* **Antes:** El inventario dependía de que un empleado tuviera tiempo de contar.
+* **Ahora (Con IA):**
+    * ✅ **Monitoreo Continuo:** Las estanterías "saben" cuánto pesan y calculan las unidades restantes.
+    * ✅ **Reposición Proactiva:** El sistema avisa al almacenero *antes* de que el producto se agote.
+    * ✅ **Trazabilidad:** Gracias al RFID, sabemos si un producto ha salido por caja o ha desaparecido (robo/pérdida).
 
-**Resultados esperados:**  
-- Mayor eficiencia administrativa  
-- Mejora atención al cliente  
-- Decisiones basadas en datos reales y en tiempo real
+### 📈 2. Transformación en Negocio (IT)
+**Objetivo:** Tomar decisiones basadas en datos, no en intuiciones.
+
+* **Antes:** Marketing genérico y compras basadas en "lo de siempre".
+* **Ahora (Con IA):**
+    * ✅ **Predicción de Demanda:** La IA analiza clima, festivos y eventos locales para sugerir pedidos de compra precisos.
+    * ✅ **Precios Dinámicos:** Ajuste de precios en etiquetas electrónicas según la caducidad del producto (evita desperdicio).
+    * ✅ **Hiper-personalización:** El CRM envía una oferta a la App del cliente justo cuando suele venir a comprar.
+
+### 🏆 Ventajas Competitivas
+Al digitalizar de extremo a extremo, EcoMerc obtiene:
+1.  **Eficiencia Operativa:** Reducción de horas hombre en tareas repetitivas.
+2.  **Fidelización:** El cliente encuentra lo que quiere, cuando quiere.
+3.  **Sostenibilidad:** Menos desperdicio de alimentos gracias a la previsión precisa.
