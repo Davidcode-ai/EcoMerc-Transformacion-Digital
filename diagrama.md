@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-A[Planta - Almacén (OT)] --> B[IoT y Sensores Inteligentes]
+A[Planta - Almacén OT] --> B[IoT y Sensores Inteligentes]
 A --> C[RFID y Lectura de Códigos de Barras]
 A --> D[Machine Learning - Previsión de Demanda]
 B --> H[Plataforma de Datos]
