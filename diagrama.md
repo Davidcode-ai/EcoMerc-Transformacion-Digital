@@ -2,14 +2,14 @@
 
 ```mermaid
 graph TD
-A[Planta - Almacén *OT*] --> B[IoT y Sensores Inteligentes]
+A[Planta - Almacén OT] --> B[IoT y Sensores Inteligentes]
 A --> C[RFID y Lectura de Códigos de Barras]
 A --> D[Machine Learning - Previsión de Demanda]
 B --> H[Plataforma de Datos]
 C --> H
 D --> H
 
-E[Negocio *IT*] --> F[ERP Conectado]
+E[Negocio IT] --> F[ERP Conectado]
 E --> G[CRM con IA]
 E --> I[Chatbot con IA]
 E --> J[Base de Datos]
