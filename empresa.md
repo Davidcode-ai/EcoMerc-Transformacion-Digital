@@ -1,7 +1,3 @@
-🏠 [Volver al Inicio](README.md) | ⚙️ [Tecnologías](tecnologias.md) | 📊 [Diagrama](diagrama.md) | 🚀 [Transformación](transformacion_digital.md) | 🧠 [Reflexión](reflexion.md)
-
----
-
 # 🏢 Ficha de Empresa: EcoMerc
 
 ### 📍 Perfil General
@@ -25,5 +21,12 @@ Actualmente, EcoMerc opera de manera tradicional y analógica.
 | **Ventas** | 📠 Caja Registradora simple | Colas largas y cero datos sobre *quién* compra. |
 | **Marketing** | 📄 Carteles en papel | Poca efectividad, no llega al cliente digital. |
 
+---
+
+### 💰 Estrategia de Viabilidad (SaaS)
+Para hacer accesible esta transformación a una PYME, **no se desarrollará software propio**. Se contratarán servicios en la nube de pago por uso (SaaS):
+* **Inversión inicial (CAPEX) baja:** Alquiler de hardware y sensores.
+* **Coste operativo (OPEX) predecible:** Suscripciones mensuales a plataformas de IA y ERP en la nube.
+
 ### 🎯 El Reto
-Transformar EcoMerc en un **"Smart Market"** donde los datos fluyan desde la estantería hasta la oficina de gestión automáticamente.
+Transformar EcoMerc en un **"Smart Market"** viable económicamente, donde los datos fluyan desde la estantería hasta la oficina de gestión automáticamente.
