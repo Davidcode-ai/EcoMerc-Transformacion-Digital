@@ -7,11 +7,11 @@
 
 ## Productos Principales
 - Alimentos
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/9caf5f40-9c99-4c77-bc6e-bfdf0493404f" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/9caf5f40-9c99-4c77-bc6e-bfdf0493404f" />
 - Productos de higiene
-<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/77da2234-f2be-474b-995e-ec5d5cb092b9" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/77da2234-f2be-474b-995e-ec5d5cb092b9" />
 - Productos para mascotas
-<img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/a33fe477-6b92-4e34-b2d8-9de24a5a59a5" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/a33fe477-6b92-4e34-b2d8-9de24a5a59a5" />
 - Otros productos básicos del hogar  
 
 ## Clientes
