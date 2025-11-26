@@ -1,21 +1,21 @@
 flowchart LR
 
-A[Clientes] -->|Compras| B[E-commerce]
-B --> C[CRM con IA]
+A[Clientes] --> B[E-commerce]
+B --> C[CRM]
 
-subgraph IT["Negocio (IT)"]
-    C --> D[ERP Conectado]
+subgraph IT
+    C --> D[ERP]
     D --> E[Base de Datos]
     D --> F[Dashboard]
 end
 
-subgraph OT["Planta (OT)"]
-    G[IoT y Sensores] --> H[RFID y Códigos de Barras]
-    H --> I[SCADA / Plataforma de Datos]
+subgraph OT
+    G[Sensores IoT] --> H[RFID y Códigos de Barras]
+    H --> I[SCADA]
     I --> D
 end
 
-E --> J[IA: Predicción de Demanda y Optimización]
+E --> J[IA: Predicción de Demanda]
 I --> K[IA: Optimización Operativa]
 
 J --> D
