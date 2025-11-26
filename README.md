@@ -5,12 +5,12 @@ Este repositorio contiene la documentación completa del proyecto de transformac
 
 Archivos incluidos:
 
-1. [`ficha_empresa.md`](ficha_empresa.md) – Descripción detallada de la empresa, su funcionamiento actual y los problemas a resolver.  
+1. [`empresa.md`](empresa.md) – Descripción detallada de la empresa, su funcionamiento actual y los problemas a resolver.  
 2. [`digitalizacion.md`](digitalizacion.md) – Explicación de la digitalización en planta y negocio (OT e IT).  
 3. [`tecnologias.md`](tecnologias.md) – Listado de tecnologías seleccionadas, su función y justificación de su implementación.  
 4. [`diagrama.md`](diagrama.md) – Diagrama Mermaid que muestra la integración de IT y OT y cómo la IA afecta los procesos clave.  
-5. [`propuesta_transformacion.md`](propuesta_transformacion.md) – Plan de transformación digital completo con objetivos, tecnologías aplicadas e impacto organizacional.  
-6. [`reflexion_final.md`](reflexion_final.md) – Reflexión sobre la importancia de la IA en el presente y futuro, y comparación con otros sectores.
+5. [`transformacion_digital.md`](transformacion_digital.md) – Plan de transformación digital completo con objetivos, tecnologías aplicadas e impacto organizacional.  
+6. [`reflexion.md`](reflexion.md) – Reflexión sobre la importancia de la IA en el presente y futuro, y comparación con otros sectores.
 
 ## Objetivo del Proyecto
 Diseñar un plan de transformación digital integral para EcoMerc que:
@@ -37,8 +37,8 @@ Diseñar un plan de transformación digital integral para EcoMerc que:
 ## Cómo usar este repositorio
 1. Abrir cada archivo `.md` para revisar la información específica de cada sección.  
 2. Consultar el `diagrama.md` para visualizar la relación entre IT, OT y el motor de IA.  
-3. Utilizar `propuesta_transformacion.md` para presentar la implementación de tecnologías y el impacto esperado.  
-4. Leer `reflexion_final.md` para comprender la importancia de la IA en el presente y futuro del sector comercio.
+3. Utilizar `transformacion_digital.md` para presentar la implementación de tecnologías y el impacto esperado.  
+4. Leer `reflexion.md` para comprender la importancia de la IA en el presente y futuro del sector comercio.
 
 ---
 
