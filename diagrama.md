@@ -1,3 +1,6 @@
+# Diagrama Mermaid
+
+```mermaid
 flowchart LR
 
 A[Clientes] -->|Pedidos Online| B(E-commerce)
