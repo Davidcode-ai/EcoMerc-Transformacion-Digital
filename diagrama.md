@@ -4,45 +4,48 @@
 
 # 📊 Arquitectura de la Solución (IT + OT + IA)
 
-Este diagrama muestra el flujo de datos desde la captura física hasta la toma de decisiones inteligente.
+Este diagrama representa cómo fluyen los datos desde la planta física hasta el sistema de negocio, pasando por el motor de Inteligencia Artificial.
 
 ```mermaid
-graph TD
-    %% Definición de Estilos
-    classDef planta fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef negocio fill:#f3e5f5,stroke:#4a148c,stroke-width:2px;
-    classDef ai fill:#fff3e0,stroke:#e65100,stroke-width:4px;
-
-    subgraph OT [" 🏭 PLANTA (Operaciones Físicas) "]
+graph LR
+    %% Subgrafo de PLANTA (OT)
+    subgraph OT [🏭 PLANTA - Operaciones Físicas]
         direction TB
-        A(📡 Sensores IoT Estanterías):::planta
-        B(🏷️ Lectores RFID):::planta
-        C(📹 Cámaras Visión Artificial):::planta
-        D[Concentrador OT]:::planta
+        A[📡 Sensores IoT]
+        B[🏷️ Lectores RFID]
+        C[📹 Cámaras Visión]
+        D(Concentrador de Datos)
+        
+        A --> D
+        B --> D
+        C --> D
     end
 
-    subgraph IT [" 💻 NEGOCIO (Gestión Digital) "]
+    %% Subgrafo de INTELIGENCIA ARTIFICIAL
+    subgraph IA [🧠 MOTOR DE INTELIGENCIA ARTIFICIAL]
         direction TB
-        E(🖥️ ERP Conectado):::negocio
-        F(👥 CRM Clientes):::negocio
-        G(📱 App / Chatbot):::negocio
-        H[Data Lake Cloud]:::negocio
+        Motor{🤖 Algoritmo ML}
     end
 
-    %% Conexiones
-    A --> D
-    B --> D
-    C --> D
-    D -->|Datos en tiempo real| H
-    E -->|Histórico Ventas| H
-    F -->|Datos Clientes| H
-    G -->|Consultas| H
+    %% Subgrafo de NEGOCIO (IT)
+    subgraph IT [💻 NEGOCIO - Gestión Digital]
+        direction TB
+        E[🖥️ ERP Gestión]
+        F[👥 CRM Clientes]
+        G[📱 App Móvil]
+        H(☁️ Data Lake / Nube)
 
-    subgraph BRAIN [" 🧠 MOTOR DE INTELIGENCIA ARTIFICIAL "]
-        I{Algoritmo ML}:::ai
+        H --> E
+        H --> F
+        H --> G
     end
 
-    H --> I
-    I -->|Predicción de Demanda| E
-    I -->|Oferta Personalizada| F
-    I -->|Alerta de Reposición| A
+    %% Conexiones entre Áreas
+    D -->|Datos en tiempo real| Motor
+    E -->|Histórico de ventas| Motor
+    F -->|Datos de clientes| Motor
+
+    %% Decisiones de la IA (Salidas)
+    Motor -->|1. Orden de Compra Auto| E
+    Motor -->|2. Oferta Personalizada| G
+    Motor -->|3. Alerta Reposición| A
