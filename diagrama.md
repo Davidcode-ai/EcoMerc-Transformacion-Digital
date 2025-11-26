@@ -1,25 +1,22 @@
-# Diagrama Mermaid
-
-```mermaid
 flowchart LR
 
-A[Clientes] -->|Pedidos Online| B(E-commerce)
-B --> C[CRM]
+A[Clientes] -->|Compras| B[E-commerce]
+B --> C[CRM con IA]
 
-subgraph IT
-    C --> D[ERP]
+subgraph IT["Negocio (IT)"]
+    C --> D[ERP Conectado]
     D --> E[Base de Datos]
-    D --> F[Dashboard Power BI]
+    D --> F[Dashboard]
 end
 
-subgraph OT
-    G[Sensores IoT] --> H[PLC]
-    H --> I[SCADA]
+subgraph OT["Planta (OT)"]
+    G[IoT y Sensores] --> H[RFID y Códigos de Barras]
+    H --> I[SCADA / Plataforma de Datos]
     I --> D
 end
 
-E --> J[IA: Predicción de Demanda]
-H --> K[IA: Mantenimiento Predictivo]
+E --> J[IA: Predicción de Demanda y Optimización]
+I --> K[IA: Optimización Operativa]
 
 J --> D
 K --> I
