@@ -1,4 +1,4 @@
-# 🛒 Proyecto: Transformación Digital de EcoMerc con IA
+# Proyecto: Transformación Digital de EcoMerc con IA
 
 ![Estado](https://img.shields.io/badge/Estado-Terminado-success) ![Curso](https://img.shields.io/badge/Curso-1ºDaW-blue) ![Tecnología](https://img.shields.io/badge/Tech-IoT%20%7C%20AI%20%7C%20Mermaid-orange)
 
