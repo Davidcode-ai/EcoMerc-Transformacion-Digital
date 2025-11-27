@@ -1,3 +1,7 @@
+[Volver al Inicio](README.md) | [Empresa](empresa.md) | [Tecnologías](tecnologias.md) | [Diagrama](diagrama.md) | [Transformación](transformacion_digital.md) | [Reflexión](reflexion.md)
+
+---
+
 # Digitalizando el Negocio
 
 ## Digitalización en Planta (OT – Operaciones)
