@@ -1,5 +1,7 @@
 🏠 [Volver al Inicio](README.md) | 🏢 [Empresa](empresa.md) | ⚙️ [Tecnologías](tecnologias.md) | 🚀 [Transformación](transformacion_digital.md) | 🧠 [Reflexión](reflexion.md)
 
+---
+
 # 🏢 Ficha de Empresa: EcoMerc
 
 ### 📍 Perfil General
